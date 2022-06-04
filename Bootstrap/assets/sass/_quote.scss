@@ -1,0 +1,17 @@
+#quote{
+    .container{
+        .quoto-wrapper{
+            padding: 5% 0;
+            .content{
+                padding: 0 20%;
+            }
+            .row{
+                .image{
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

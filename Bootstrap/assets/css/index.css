@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .container nav div .menu {
+  display: none;
+}
+
+header .container nav div .menu .icon {
+  border-radius: 10%;
+}
+
+header .container nav div .menu .icon button {
+  border-radius: 10%;
+}
+
+header .container nav div .menu .icon button i {
+  color: #fff;
+}
+
+#jumbotron .container .row .intro .get-start {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 20px !important;
+}
+
+#jumbotron .container .row .intro .learn-more {
+  border: 1px solid;
+  margin-left: 15px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 20px !important;
+}
+
+#jumbotron .container .row .intro .learn-more:hover {
+  background-color: white;
+  color: #212529;
+}
+
+#features {
+  padding: 5%;
+}
+
+#quote .container .quoto-wrapper {
+  padding: 5% 0;
+}
+
+#quote .container .quoto-wrapper .content {
+  padding: 0 20%;
+}
+
+#quote .container .quoto-wrapper .row .image img {
+  border-radius: 50%;
+}
+
+#blog {
+  padding: 0% 11%;
+}
+
+#blog .container .blog-wrapper .row .card {
+  padding: 0%;
+}
+
+#blog .container .blog-wrapper .row .card-body div .image img {
+  border-radius: 50%;
+}
+
+#blog .container .blog-wrapper .row .card-body div .auther {
+  margin-right: 4rem;
+}
+
+#subscription {
+  padding: 3% 0 6% 0;
+}
+
+#subscription .container .row .content {
+  padding: 0 6%;
+}
+
+footer .container .row .content {
+  padding: 2% 4% 2% 6%;
+}
+
+@media only screen and (max-width: 992px) {
+  header .container nav div .menu {
+    display: block;
+  }
+  header .container nav div .menu .icon {
+    border: 1px solid #fff;
+  }
+  header .container nav div .menu .icon i {
+    color: #fff;
+  }
+  #jumbotron {
+    padding-bottom: 8%;
+  }
+  #jumbotron .container .row .intro {
+    width: 100%;
+  }
+  #jumbotron .container .row .intro .content {
+    text-align: center;
+  }
+  #jumbotron .container .row .intro .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #jumbotron .container .row .intro .buttons .get-start {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 20px !important;
+  }
+  #jumbotron .container .row .intro .buttons .learn-more {
+    border: 1px solid;
+    margin-left: 25px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 20px !important;
+  }
+  #jumbotron .container .row .intro .buttons .learn-more:hover {
+    background-color: white;
+    color: #212529;
+  }
+  #jumbotron .container .row .image {
+    display: none;
+  }
+  #features {
+    padding: 5%;
+  }
+  #features .container .row .title {
+    width: 100%;
+    padding: 5%;
+  }
+  #features .container .row .content {
+    width: 100%;
+  }
+  #quote .container .quoto-wrapper {
+    padding: 5% 0 10% 0;
+  }
+  #quote .container .quoto-wrapper .content {
+    padding: 0 6%;
+  }
+  #quote .container .quoto-wrapper .row .image img {
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,112 @@
+@media only screen and (max-width: 992px){
+    header{
+        .container{
+            nav{
+                div{
+                    .menu{
+                        display: block;
+                        .icon{
+                            border: 1px solid #fff;
+                            i{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #jumbotron {
+        padding-bottom: 8%;
+        .container {
+            .row {
+                .intro {
+                    width: 100%;
+                    .content{
+                        text-align: center;
+                    }
+                    .buttons{
+                        display: flex;
+                        justify-content: center;
+                        .get-start {
+                            padding: 0.5rem 1rem 0.5rem 1rem;
+                            font-size: 20px !important;
+                        }
+        
+                        .learn-more {
+                            border: 1px solid;
+                            margin-left: 25px;
+                            padding: 0.5rem 1rem 0.5rem 1rem;
+                            font-size: 20px !important;
+        
+                            &:hover {
+                                background-color: white;
+                                color: #212529;
+                            }
+                        }
+                    }
+                }
+                .image{
+                    display: none;
+                }
+            }
+        }
+    }
+    #features{
+        padding: 5%;
+        .container{
+            .row{
+                .title{
+                    width: 100%;
+                    padding: 5%;
+                }
+                .content{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #quote{
+        .container{
+            .quoto-wrapper{
+                padding: 5% 0 10% 0;
+                .content{
+                    padding: 0 6%;
+                }
+                .row{
+                    .image{
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #blog{
+        .container{
+            .blog-wrapper{
+                .row{
+                    .card{
+                       padding: 0%;
+                    }
+                    .card-body{
+                        div{
+                            // margin-top: 8%;
+                            // padding-top: 4%;
+                            .image{
+                                img{
+                                    border-radius: 50%;
+                                }
+                            }
+                            .auther{
+                                margin-right: 4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

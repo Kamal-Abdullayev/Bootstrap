@@ -1,0 +1,16 @@
+#blog {
+    .container {
+        .blog-wrapper {
+
+
+            .row {
+                display: flex;
+                justify-content: center;
+
+                .card {
+                    // width: 36rem !important;
+                }
+            }
+        }
+    }
+}
